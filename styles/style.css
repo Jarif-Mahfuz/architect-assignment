@@ -283,6 +283,28 @@
 
 
 
+  /* footer- section style start  */
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 1440px; */
+    height: 100px;
+   
+    
+  }
+  .footer-des{   
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    color: #424242;
+    padding: 30px 300px;
+    font-weight: 400;
+    font-size: 20px;
+    
+  }
+  /* footer- section style end */
+
 
 
  /* responsive style  */
