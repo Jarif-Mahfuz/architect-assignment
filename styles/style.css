@@ -27,6 +27,53 @@
         padding: 15px 15px;
         margin-bottom: 30px;
     }
+    .extra-btn{
+        padding: 10px 40px;
+        background-color: #FF900E;
+        border: none;
+        border-radius: 8px;
+    }
+    .extra-btn-span-1{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .extra-btn-span-2{
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    /*--------------
+   nav styles start 
+   ----------------*/
+   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+   }
+   .nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+   }
+   .nav-items{
+    display: flex;
+    
+   }
+   .nav-items a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 30px;
+   }
+  /*--------------
+   nav styles end 
+   ----------------*/
+
+
 /*-------------------
  header section style start
  --------------------*/
@@ -135,10 +182,25 @@
     /* width: 586px; */
     margin-bottom: ;
   }
+  .feature-for-user-title-div{
+    display: flex;
+    align-items: center;
+  }
+  .feature-for-user-title-other{
+    width: 10px;
+    height: 106px;
+    margin-right: 20px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    /* border: 1px solid #000000; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+  }
   .feature-for-user-title{
     color: #131313;
     font-weight: 700;
     font-size: 45px;
+    /* border-left: 5px solid #FF900E;; */
   }
   .feature-for-user-description{
     color: #727272;
@@ -297,10 +359,10 @@
   .footer-des{   
     background-color: #FFF4E7;
     border-radius: 8px;
-    color: #424242;
+    color: #292626a9;
     padding: 30px 300px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     
   }
   /* footer- section style end */
